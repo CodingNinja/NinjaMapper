@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration xmlns="http://ninjamapper.codingninja.com.au/schema/Mappings" 
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xmlns:xsd="http://ninjamapper.codingninja.comau/schema/mappings" 
+          xsi:schemaLocation="http://ninjamapper.codingninja.comau/schema/mappings">
+    <mappings>
+     <mapping name="First Name">
+         <match name="first_name" />
+         <type>1</type>
+     </mapping>
+     <mapping name="Middle Name">
+         <match name="middle_name" />
+         <type>1</type>
+     </mapping>
+     <mapping name="Last Name">
+         <match name="last_name" />
+         <type>1</type>
+     </mapping>
+    </mappings>
+</configuration>

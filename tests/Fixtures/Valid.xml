@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration xmlns="http://ninjamapper.codingninja.com.au/schema/Mappings" 
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xmlns:xsd="http://ninjamapper.codingninja.comau/schema/mappings" 
+          xsi:schemaLocation="http://ninjamapper.codingninja.comau/schema/mappings ../../src/NinjaMapper/Resources">
+    <config name="sd" value="asd"></config>
+    <mappings>
+     <mapping name="firstName">
+         <match name="givenname" renameTo="name" />
+     </mapping>
+     <mapping name="lastName">
+         <match name="surname" renameTo="name" />
+     </mapping>
+     <mapping name="prefferedName">
+         <match name="prefname" renameTo="name" />
+     </mapping>
+     <mapping type="string">
+         <match name="prefname" renameTo="name" />
+         <type>string</type>
+     </mapping>
+    </mappings>
+</configuration>

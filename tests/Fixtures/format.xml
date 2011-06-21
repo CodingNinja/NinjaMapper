@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration xmlns="http://ninjamapper.codingninja.com.au/schema/Mappings" 
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xmlns:xsd="http://ninjamapper.codingninja.comau/schema/mappings" >
+    <config name="config" value="test"></config>
+    <mappings>
+     <mapping name="name">
+         <match name="firstName" />
+     </mapping>
+    </mappings>
+</configuration>

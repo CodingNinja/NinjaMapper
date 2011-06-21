@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration xmlns="http://ninjamapper.codingninja.com.au/schema/Mappings" 
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xmlns:xsd="http://ninjamapper.codingninja.comau/schema/mappings" 
+          xsi:schemaLocation="http://ninjamapper.codingninja.comau/schema/mappings">
+    <mappings>
+     <mapping name="Name ads">
+         <match name="name" renameTo="name1" />
+         <match name="name2" />
+         <type>1</type>
+     </mapping>
+    </mappings>
+</configuration>
