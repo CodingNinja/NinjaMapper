@@ -1,0 +1,10 @@
+NinjaMapper
+===========
+
+NinjaMapper is built to allow importing from a range of datasets from a very simple to use API.
+
+NinjaMapper can be configured to import any format as it uses Readers and Writers to map data and read configuration files.
+
+NinjaMapper is fully Unit Tested and has almost 90% Code Coverage.
+
+_No where near ready to use._
