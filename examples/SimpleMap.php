@@ -1,9 +1,9 @@
 <?php
 
-namespace NinjaMapper\Examples;
+namespace Ninja\Mapper\Examples;
 include __DIR__ . '/../tests/bootstrap.php';
 
-use NinjaMapper\Mapper;
+use Ninja\Mapper\Mapper;
 
 $mapper = new Mapper();
 $data = array();
